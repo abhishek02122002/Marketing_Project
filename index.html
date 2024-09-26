@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section style="--clr: #e0dbdb">
+        <div class="content">
+          <header id="header-section">
+            <div class="header-child header-logo">Codex</div>
+            <div class="header-child header-main">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#course-section-display">Courses</a></li>
+                <li><a href="#">Blogs</a></li>
+              </ul>
+            </div>
+            <div class="header-child">
+              <button type="button" id="explore-btn">Explore</button>
+            </div>
+          </header>
+
+          <div class="information-container">
+            <div id="img-left">
+              <img src="./img/4.jpg" alt="" />
+            </div>
+            <div id="bold-section">
+              <span class="first-line"> Start practicing </span>
+              <br />
+              <span class="second-line">
+                <span class="role"></span> every
+              </span>
+              <br />
+
+              <span class="third-line"> day with us </span>
+              <p id="small-text-section">
+                Start your coding journey with us and master industry<br />
+                level projects with ease.
+              </p>
+
+              <button type="button" class="start-trial-btn">
+                Start Trial Courses
+              </button>
+            </div>
+
+            <div id="img-right">
+              <div class="img1"></div>
+              <div class="img2"></div>
+            </div>
+          </div>
+
+          <div id="language">
+            <div class="lang-section">
+              <div class="flag uk"></div>
+              <div class="lang-infos">
+                <div class="lang-name">English</div>
+                <div class="teacher">500+Educators</div>
+              </div>
+            </div>
+
+            <div class="lang-section">
+              <div class="flag france"></div>
+              <div class="lang-infos">
+                <div class="lang-name">French</div>
+                <div class="teacher">350+Educators</div>
+              </div>
+            </div>
+
+            <div class="lang-section">
+              <div class="flag german"></div>
+              <div class="lang-infos">
+                <div class="lang-name">German</div>
+                <div class="teacher">350+Educators</div>
+              </div>
+            </div>
+
+            <div class="lang-section">
+              <div class="flag arab"></div>
+              <div class="lang-infos">
+                <div class="lang-name">Arabic</div>
+                <div class="teacher">450+Educators</div>
+              </div>
+            </div>
+
+            <div class="lang-section">
+              <div class="flag hind"></div>
+              <div class="lang-infos">
+                <div class="lang-name">Hindi</div>
+                <div class="teacher">750+Educators</div>
+              </div>
+            </div>
+
+            <div class="lang-section">
+              <div class="flag spain"></div>
+              <div class="lang-infos">
+                <div class="lang-name">Spanish</div>
+                <div class="teacher">380+Educators</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="course-section-display" style="--clr: #e3dff2">
+        <div class="content" id="course-section-display">
+          <div id="top-nav">
+            <h3 class="course-words">Explore our courses</h3>
+            <input
+              type="text"
+              id="input-form"
+              placeholder="what would you like to learn...?"
+            />
+            <div class="trending-course">
+              <span class="trending">Trending</span>
+              <span class="trending-box">
+                We have got the data from the last years poll;
+              </span>
+            </div>
+            <div id="trending-course-list">
+              <ul>
+                <li class="trending-list-items">Full Stack Development</li>
+                <li class="trending-list-items">Artifical Intelligence</li>
+                <li class="trending-list-items">Java Development</li>
+              </ul>
+            </div>
+          </div>
+          <div id="course-render-list">
+            <!--
+             <div id="course-information">
+              <figure class="course-fig-tag">
+                <img src="./img/2.jpg" alt="">
+                <p class="course-name">Course_Name</p>
+                <p class="course-educator-name">Name</p>
+                <p class="course-language-name">Language</p>
+                <a id="course-link" href="#">Link</a>
+
+              </figure>
+
+            </div> 
+            -->
+          </div>
+        </div>
+      </section>
+
+      <section style="--clr: #b5d2ad">
+        <div class="content">
+          <div class="above-section">
+            <div id="sec-info">
+              <p class="text-sec-info">
+                Use the filter option in the left side to know your highly rated
+                teacher
+              </p>
+              <button id="close-btn" title="click to close this">❌</button>
+            </div>
+            <div id="above-btn">
+              <button type="button" id="original-btn">RESET IT</button>
+              <button type="button" id="original-btn">EXPLORE MORE</button>
+            </div>
+          </div>
+          <div id="father-of-display">
+            <div id="display-section">
+              <div id="sidebar">
+                <h2>Filter Options</h2>
+                <div class="language">
+                  <h3>Language</h3>
+                  <ul id="language-selection">
+                    <li id="english">English</li>
+                    <li id="hindi">Hindi</li>
+                    <li id="arabic">Arabic</li>
+                    <li id="german">German</li>
+                    <li id="french">French</li>
+                  </ul>
+                </div>
+                <div class="technology">
+                  <h3>Technology</h3>
+                  <ul id="technology">
+                    <li id="fullstack">Full Stack Development</li>
+                    <li id="java">Java Development</li>
+                    <li id="ai_ml">AI / ML</li>
+                    <li id="blockchain">Blockchain</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="rest-display-section"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="--clr: #ffe2eb">
+        <div class="content" id="fourth-section">
+          <div id="bg-changer">
+            <div id="green"></div>
+            <div id="yellow"></div>
+            <div id="pink"></div>
+          </div>
+
+          <div id="left-main-section">
+            <p class="major-text-written">
+              Crack the Code to <br />
+              Success with <span class="main-logo-name">Codex</span>
+            </p>
+            <p class="mini-text-written">
+              Elevate your programming skills,solve challenges, and unlock the
+              <br />
+              world of coding possibilities.
+            </p>
+            <div id="button-container">
+              <button type="button" id="view-course-btn">View Courses</button>
+              <button type="button" id="watch-live-btn">
+                Watch Video <span class="red">Live &rarr;</span>
+              </button>
+            </div>
+            <div id="img-section">50,000+ Happy Students</div>
+          </div>
+          <div id="right-main-section">
+            <div id="grid-section">
+              <div class="infos">Free Web Dev</div>
+              <div class="infos">Tutorials</div>
+              <div class="infos">Dev Challenges</div>
+              <div class="infos">Mock Tests</div>
+              <div class="infos">Quick Compiler</div>
+              <div class="infos">Articles</div>
+              <div class="infos">Interview Experience</div>
+              <div class="infos">Core CS Subjects</div>
+            </div>
+          </div>
+          <marquee behavior="" direction="">Abc</marquee>
+        </div>
+      </section>
+
+      <section style="--clr: #cfffca">
+        <div class="content" id="drag-id">
+          <div id="to-drag-end">
+            <div id="drag-infos">
+              Drag the technology you want to learn
+            </div>
+          </div>
+          <div id="tech-names-to-drag">
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/js.png')"></div>
+              <div id="tech-name">JAVASCRIPT</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/react.png')"></div>
+              <div id="tech-name">REACT </div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/cpp.png')"></div>
+              <div id="tech-name">JAVASCRIPT</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/java.png')"></div>
+              <div id="tech-name">JAVA</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/machine-learning.png')"></div>
+              <div id="tech-name">ML</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/cpp.png')"></div>
+              <div id="tech-name">JAVASCRIPT</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/social.png')"></div>
+              <div id="tech-name">DOCKER</div>
+            </div>
+
+            <div id="tech-box" draggable="true">
+              <div id="drag-img" style="--img:url('./img/flags/drag.png')"></div>
+              <div id="tech-image" style="--icon:url('./img/tech/nodejs.png')"></div>
+              <div id="tech-name">NODE JS</div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <section style="--clr: #dafff6">
+        <div class="content" id="last-section">
+          <h2>Know the Creator</h2>
+         <div id="last-container">
+            <div>Made with love ❤️💙 by</div><br>
+            <div id="img-name-hover" onmouseover="courserChange('my.png')" onmouseout="cursorOriginal()">Abhishek Singh</div>
+            <div id="social-media">
+              <div class="linkedIn">LinkedIn</div>
+              <div class="Youtube">Youtube</div>
+              <div class="instagram">Instagram</div>
+              <div class="twitter">Twitter</div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Development",
+          "Programming",
+          "Data Structures",
+          "Algorithms",
+          "Backend Development",
+          "machine Learning",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
